@@ -16,7 +16,7 @@ $pdf->SetFillColor(110, 110, 110);
 
 $pdf->SetXY(2, 5);
 
-$pdf->Image('images/logo.jpg',10,10, 64, 48);
+$pdf->Image('./images/logo.jpg',10,10, 64, 48);
 
 $pdf->SetXY(15, 40);
 
